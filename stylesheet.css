@@ -1,0 +1,112 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.container-fluid
+{
+    height: 100vh;
+}
+.avatarImg
+{
+    max-width: 100%;
+}
+#landing-page 
+{
+    background-color: seashell;
+}
+p
+{
+    line-height: 150%;
+}
+.skills-container
+{
+    width:100%;
+    background-color: #dddddd;
+    text-align: right;
+}
+.skills-html
+{
+    width: 90%;
+    background-color: #4dffa6;
+}
+.skills-css
+{
+    width: 80%;
+    background-color: #4dffa6;
+}
+.skills-js
+{
+    width: 70%;
+    background-color: #4dffa6;
+}
+.skills-python
+{
+    width: 60%;
+    background-color: #4dffa6;
+}
+.skills-csharp
+{
+    width: 70%;
+    background-color: #4dffa6;
+}
+.skills-asp
+{
+    width: 60%;
+    background-color: #4dffa6;
+}
+.skills-bootstrap
+{
+    width: 75%;
+    background-color: #4dffa6;
+}
+.skills-jquery
+{
+    width: 50%;
+    background-color: #4dffa6;
+}
+.skills-sql
+{
+    width: 50%;
+    background-color: #4dffa6;
+}
+.card
+{
+    border: none;
+}
+
+footer
+{
+    background-color:#a7c0e8;
+    height: 100% !important;
+}
+
+
+@media (min-width: 768px)
+{
+    .avatarImg
+    {
+        margin-top: 12%;
+    }
+
+    .intro
+    {
+        margin-top: 17%;
+    }
+    .row .col-md-3
+    {
+        margin-left: 2%;
+    }
+    
+}
+
+@media (max-width: 768px)
+{
+    .intro
+    {
+        margin-top:20%
+    }
+    .container-fluid
+    {
+        height: 100%;
+    }
+}
