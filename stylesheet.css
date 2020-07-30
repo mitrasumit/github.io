@@ -2,17 +2,37 @@ html
 {
     scroll-behavior: smooth;
 }
+h1,h2,h3
+{
+    font-family: 'Pacifico',serif;
+}
 .container-fluid
 {
     height: 100vh;
 }
+#landing-page
+{
+    background-color:#F2F2ED;
+}
+#projects-page
+{
+    background-color: #AEE3D6;
+}
+#certification-page
+{
+    background-color: #9CEAB7;
+}
+#skills-page
+{
+    background-color: #efefda;
+}
+#about-page
+{
+    background-color: #c3eaf3;
+}
 .avatarImg
 {
     max-width: 100%;
-}
-#landing-page 
-{
-    background-color: seashell;
 }
 p
 {
@@ -73,10 +93,9 @@ p
 {
     border: none;
 }
-
 footer
 {
-    background-color:#a7c0e8;
+    background-color:#f0f0cb;
     height: 100% !important;
 }
 
@@ -108,5 +127,9 @@ footer
     .container-fluid
     {
         height: 100%;
+    }
+    .ondesktop
+    {
+        display: none;
     }
 }
