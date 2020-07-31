@@ -1,11 +1,11 @@
 html
 {
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 body
 {
-    scroll-snap-type: y mandatory;     /*For Elastic scrolling Safari*/
+    scroll-snap-type: y proximity;     /*For Elastic scrolling Safari*/
 }
 #navgear
 {
@@ -110,6 +110,19 @@ footer
     background-color:#f0f0cb;
     height: 100% !important;
 }
+.nav-link
+{
+    font-family: cursive;
+}
+.nav-link:hover
+{
+    background-color: #ffffff;
+    color: #000000 !important;
+}
+
+
+
+
 
 
 @media (min-width: 768px)
