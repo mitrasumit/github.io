@@ -1,6 +1,16 @@
 html
 {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+body
+{
+    scroll-snap-type: y mandatory;     /*For Elastic scrolling Safari*/
+}
+#navgear
+{
+    height: 32px;
+    width:32px;
 }
 h1,h2,h3
 {
@@ -9,50 +19,52 @@ h1,h2,h3
 .container-fluid
 {
     height: 100vh;
+    scroll-snap-align: start;
 }
 #landing-page
 {
     background-color:#F2F2ED;
+    scroll-snap-align: start;
 }
 #projects-page
 {
-    background-color:#AEE3D6;
+    background-color: #AEE3D6;
 }
 #certification-page
 {
-    background-color:#9CEAB7;
+    background-color: #9CEAB7;
 }
 #skills-page
 {
-    background-color:#efefda;
+    background-color: #efefda;
 }
 #about-page
 {
-    background-color:#c3eaf3;
+    background-color: #c3eaf3;
 }
 .avatarImg
 {
-    max-width:100%;
+    max-width: 100%;
 }
 p
 {
-    line-height:150%;
+    line-height: 150%;
 }
 .skills-container
 {
     width:100%;
-    background-color:#dddddd;
-    text-align:right;
+    background-color: #dddddd;
+    text-align: right;
 }
 .skills-html
 {
     width: 90%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-css
 {
     width: 80%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-js
 {
@@ -67,27 +79,27 @@ p
 .skills-csharp
 {
     width: 70%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-asp
 {
     width: 60%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-bootstrap
 {
     width: 75%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-jquery
 {
     width: 50%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .skills-sql
 {
     width: 50%;
-    background-color:#4dffa6;
+    background-color: #4dffa6;
 }
 .card
 {
