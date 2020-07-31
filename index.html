@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="stylesheet.css"/>
     <script src="scripts.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico"/>
     
     <title>Sumit Mitra - Developer</title>
@@ -19,8 +19,10 @@
 
 
 <body>
+
+
     <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark" id="navigation-bar">
-        <a class="navbar-brand" href="#landing-page"><img src="https://img.icons8.com/plasticine/100/000000/gear.png" id="navgear"/></a>
+        <a class="navbar-brand" href="#landing-page"> <img src="https://img.icons8.com/plasticine/100/000000/gear.png" id="navgear"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Navigation Toggle">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,14 +45,14 @@
         </div>
     </nav>
 
-    <div class="container-fluid parallax" id="landing-page">
-        <div class="row text-center">
+    <div class="container-fluid" id="landing-page">
+        <div class="row text-center" data-aos="fade-up" data-aos-duration="1000">
             
-            <div class="col-md-6 animate__animated animate__fadeInUp">
+            <div class="col-md-6">
             <img src="images/avatar.png" class="avatarImg" alt="Avatar Image"/>
             </div>
             
-            <div class="col-md-5 shadow p-3 intro animate__animated animate__fadeInUp">
+            <div class="col-md-5 shadow p-3 intro">
                 <h2>My Name is Sumit</h2>
             </br>
             <p> 
@@ -62,13 +64,13 @@
 
     <div class="container-fluid" id="projects-page">
         <div class="row">
-            <div class="col md-12 text-center">
+            <div class="col md-12 text-center" data-aos="fade-down" data-aos-duration="1000">
                 <h1 style="padding: 4%;">Projects</h1>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-3 shadow p-3 animate__animated animate__fadeInUp">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-md-3 shadow p-3">
                 <div class="card">
                     <a href="#sitecore-modal" data-target="#sitecore-modal" data-toggle="modal" style="color: inherit;">
                         <img class="card-img-top" src="images/sitecore-logo.png" alt="Sitecore Logo" style="border-radius: 50%;"/>
@@ -105,7 +107,7 @@
 
             <div class="col-md-1"></div>
 
-            <div class="col-md-3 shadow p-3 animate__animated animate__fadeInUp">
+            <div class="col-md-3 shadow p-3">
                 <div class="card">
                     <img class="card-img-top" src="images/coming-soon-resized.jpg" alt="Coming Soon" style="border-radius: 50%;"/>
                     <h5 class="card-title text-center">Coming Soon</h5>
@@ -115,7 +117,7 @@
 
             <div class="col-md-1"></div>
 
-            <div class="col-md-3 shadow p-3 animate__animated animate__fadeInUp">
+            <div class="col-md-3 shadow p-3" >
                 <div class="card">
                     <img class="card-img-top" src="images/coming-soon-resized.jpg" alt="Coming Soon" style="border-radius: 50%;"/>
                     <h5 class="card-title text-center">Coming Soon</h5>
@@ -127,12 +129,12 @@
     
     <div class="container-fluid" id="certification-page">
         <div class="row">
-            <div class="col md-12 text-center">
+            <div class="col md-12 text-center" data-aos="fade-down" data-aos-duration="1000">
                 <h1 style="padding:4%;">Certificates</h1>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-3 shadow p-3 animate__animated animate__fadeInUp">
                 <div class="card">
                     <a href="https://www.youracclaim.com/badges/db433015-d598-4e5f-90e8-2af9ba616a4d/public_url" target="_blank" style="color:inherit;">
@@ -170,13 +172,13 @@
     </div>
 
     <div class="container-fluid" id="skills-page">
-        <div class="row">
+        <div class="row" data-aos="fade-down" data-aos-duration="1000">
             <div class="col-md-12 text-center">
                 <h1 style="padding:4%">Skills</h1>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-3 shadow p-3 animate__animated animate__fadeInUp">
                 <h3>Programming Languages</h3>
                 <h5>C#</h5>
@@ -232,13 +234,13 @@
     </div>
 
     <div class="container-fluid" id="about-page">
-        <div class="row">
+        <div class="row" data-aos="fade-down" data-aos-duration="1000">
             <div class="col-md-12 text-center">
                 <h1 style="padding:4%">Personal Info</h1>
             </div>
         </div>
-        <div class="row">    
-            <div class="col-md-6 text-center animate__animated animate__fadeInUp">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">    
+            <div class="col-md-6 text-center">
                 <h3>Education</h3>
             </br>
                 <table class="table table-info table-hover">
@@ -290,10 +292,10 @@
                     </table>
                 </div>
         </div> 
-        <div class="row ondesktop" style="margin-top: 100px;">
+        <div class="row ondesktop" style="margin-top: 80px;">
             <div class="col-md-6 text-center">
                 <h3>Contact Details below</h3>
-                <h3 class="animate__animated animate__bounce animate__repeat-3"><img src="https://img.icons8.com/dusk/64/000000/chevron-down.png"/></h3>
+                <h3><img src="https://img.icons8.com/dusk/64/000000/chevron-down.png"/></h3>
             </div>
             <div class="col-md-6 text-center">
                 <button class="btn btn-primary" onclick="backtotop()" id="topbutton" title="Back to Top">Go to Top</button>
@@ -337,6 +339,11 @@
         </div>
     </footer>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
